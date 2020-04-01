@@ -1,0 +1,1 @@
+// return parseFloat(fahrenheit.toFixed(1));
