@@ -1,0 +1,46 @@
+html {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+    min-height: 100%;
+}
+#title {
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-weight: 300;
+}
+.container {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(7,1fr);
+    width: 350px;
+    height: 450px;
+    background-color: black;
+    gap: .4em;
+    padding: .4em;
+    border: .4em solid white;
+}
+main {
+    margin: auto;
+    text-align: center;
+}
+.display {
+    grid-column: 1 / span 5;
+    grid-row: 1 / span 2;
+    background-color: darkslategrey;
+    overflow: hidden;
+    display: grid;
+}
+.displayText{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 4vw;
+    text-align: left;
+}
+#result{
+    text-align: right;
+    align-self: end;
+}

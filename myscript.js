@@ -1,4 +1,24 @@
-// return parseFloat(fahrenheit.toFixed(1));
+let operation;
+
+//Create eventlistener for the buttons
+const container = document.querySelector(".container");
+const items = document.querySelectorAll(".item")
+
+for (let i = 0; i < items.length; i++) {
+    items[i].onclick = function(e) {
+      console.log(e.target.id);
+      
+    }
+  }
+
+
+
+function addToDisplay(text){
+
+}
+
+
+
 //create basic calculator functions
 
 function add(a,b) {return a+b};

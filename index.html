@@ -5,12 +5,46 @@
         <meta charset="utf-8">
         <meta name="Odin Project Calculator" content="Calculator try">
         <title>Basic Calculator</title>
-        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <link rel="stylesheet" type="text/css" href="mystyles.css">
         <link rel="stylesheet" type="text/css" href="reset.css">
     </head>
     <body>
-        <header></header>
-        <main></main>
+        <header>
+            <h1 id="title">Basic Calculator</h1>
+        </header>
+        <main>
+            <!-- Creating the container for the calculator -->
+            <div class="container">
+                <div class="display">
+                    <div class="displayText" id="opHistory">500000000000000000000000000000000000000000000</div>
+                    <div class="displayText" id="result">4</div>
+                </div>
+                <!-- decimal adder or decreaser -->
+                <div></div><div></div><div></div>
+                <button id="decimal+" class="special1 item">.00</button>
+                <button id="decimal-" class="special1 item">.0</button>
+                <button id="9" class="item">9</button>
+                <button id="8" class="item">8</button>
+                <button id="7" class="item">7</button>
+                <button id="del" class="item">DEL</button>
+                <button id="clean" class="item">AC</button>
+                <button id="6" class="item">6</button>
+                <button id="5" class="item">5</button>
+                <button id="4" class="item">4</button>
+                <button id="multiply" class="item">x</button>
+                <button id="divide" class="item">/</button>
+                <button id="3" class="item">3</button>
+                <button id="2" class="item">2</button>
+                <button id="1" class="item">1</button>
+                <button id="substract" class="item">-</button>
+                <button id="power" class="item">^2</button>
+                <button id="0" class="item">0</button>
+                <button id="." class="item">.</button>
+                <div></div>
+                <button id="add" class="item">+</button>
+                <button id="equals" class="item">=</button>
+            </div>
+        </main>
         <footer></footer>
         <script src="myscript.js"></script>
     </body>
