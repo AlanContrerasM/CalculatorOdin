@@ -65,8 +65,8 @@ main {
     opacity: 1;
 }
 
-
-/* .special1{
+.special{
     background-color: mediumseagreen;
-} */
+    font-weight: bolder;
+}
 
