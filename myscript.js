@@ -102,7 +102,7 @@ function checkOverflows(){
     } else opHistoryWindow.style.cssText = "overflow-x: none;"
 }
 
-
+//We dont use anything below here
 
 //create basic calculator functions
 
